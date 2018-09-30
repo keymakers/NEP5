@@ -95,7 +95,7 @@ def Main(operation, args):
     elif trigger == Application():
 
         if operation == 'deploy':
-            deploy()
+            return deploy()
 
         elif operation == 'name':
             n = TOKEN_NAME
